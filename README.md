@@ -1,100 +1,109 @@
-Travel Management System 
-        A simple Java-based console application for travel bookings—users can register, browse trips, and book travel, while admins can manage schedules and oversee all activities. The system uses object-oriented programming principles and CSV files for data storage. Ideal for practicing core Java and file handling concepts!
+# 🧳 Travel Management System (Java Console App)
 
+A simple Java-based console application that simulates a basic travel agency. Users can register, log in, browse available trips, and book travel, while admins can manage schedules and view all bookings. The project demonstrates core Java, Object-Oriented Programming (OOP), and CSV-based file storage — ideal for beginners practicing modular code and file handling.
 
-🎯 Project Objective
-To simulate a basic travel agency using Java and CSV-based data storage for learning purposes. Key concepts:
+---
 
-       Object-Oriented Programming (OOP)
+## 🎯 Project Objective
 
-       File Handling (CSV)
+To build a console-based Travel Management System using Java and CSV file handling for learning and practicing core concepts like OOP, exception handling, and role-based access.
 
-       Console-based interaction
+---
 
-       User and admin role management
+## 🧠 Key Concepts
 
+- ✅ Object-Oriented Programming (OOP)
+- ✅ File I/O with CSV (no database)
+- ✅ Role-based user/admin functionality
+- ✅ Console-based interaction
+- ✅ Exception Handling and Input Validation
+- ✅ Modular Code with Separate Classes
 
+---
 
-🧰 Tech Stack
-Language: Java
-Data Storage: CSV files (users.csv, trips.csv, bookings.csv, admin.csv)
-Tools: VS Code / Sublime Text, Git, Java Compiler
-Concepts Used:
-       Inheritance
+## 🔧 Tech Stack
 
-       Abstraction
+- **Language:** Java  
+- **Data Storage:** CSV files (`users.csv`, `trips.csv`, `bookings.csv`, `admin.csv`)  
+- **Tools:** VS Code / Sublime Text, Git  
+- **Core Concepts:** Inheritance, Abstraction, Encapsulation, Exception Handling
 
-       Exception Handling
+---
 
-       Encapsulation
+## 🚀 Features
 
+### 👤 User Module
+- Register and login as a user
+- View available trips
+- Book a trip
+- View personal bookings
 
+### 🛠 Admin Module
+- Admin login
+- Add or remove trips
+- View all bookings
+- View all registered users
 
-👤 Features
+📝 *Note: Only admins can add/remove trips or view all users/bookings.*
 
-User Module
-Register and login as a user
-View available trips
-Book a trip
-View your bookings
-Admin Module
-Admin login
-Add or remove trips
-View all bookings
-View user list
-Note: Only admins can add/remove trips or view all users/bookings.
+---
 
-
-
-🗂️ File Structure
+## 📁 File Structure
+```
 Main.java
 TravelManagementSystem.java
 FileHandler.java
 Booking.java
 Trip.java
-Admin.java
 User.java
+Admin.java
 users.csv
 trips.csv
 bookings.csv
 admin.csv
-Compilation and execution format.txt
+```
 
 
+---
 
-🚀 How to Run
-Ensure Java is installed (java -version)
 
-Open terminal/command prompt inside the project folder
+## 💻 How to Run
 
-Compile and run:
+1. Make sure Java is installed  
+   ```bash
+   java -version
+   ```
+2. Open terminal or command prompt inside the project folder
 
-bash
+3. Compile and run the program
+
+```bash
 javac Main.java
 java Main
+```
 
 
 
-📌 Key Learning Highlights
-Object-Oriented Design: Structured user, trip, booking, and admin functionality using core OOP
 
-File I/O with CSV Persistence: No database used—practice handling data with CSV files
-
-Exception Handling: Built-in checks for invalid input and operations
-
-Modular Codebase: Cleanly separated models and utility classes
+## 📌 Project Status
+This is a functional academic project built for practice and learning.
 
 
-
-🏁 Project Status
-This is a functional academic project. Contributions and suggestions are welcome!
-
-Planned for future: Adding a GUI interface or switching to a database for persistent storage.
+📍 **Future Enhancements:**
+- Add a GUI (JavaFX or Swing)
+- Integrate a database (MySQL/PostgreSQL) for persistent storage
 
 
+## 📬 Contact
 
-📫 Contact
-Susmitha P
-📍 Chennai, India
-📧 susmi1005@gmail.com
-🔗 linkedin.com/in/susmitha5
+**Susmitha P**  
+📍 Chennai, India  
+✉️ [susmi1005@gmail.com](mailto:susmi1005@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/susmitha5)
+
+
+
+
+
+
+
